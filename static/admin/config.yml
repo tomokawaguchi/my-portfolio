@@ -1,0 +1,57 @@
+backend:
+  name: git-gateway
+  branch: master
+  commit_messages:
+    create: "Create {{collection}} “{{slug}}”"
+    update: "Update {{collection}} “{{slug}}”"
+    delete: "Delete {{collection}} “{{slug}}”"
+    uploadMedia: "[skip ci] Upload “{{path}}”"
+    deleteMedia: "[skip ci] Delete “{{path}}”"
+
+media_folder: static/images
+public_folder: /images
+
+collections:
+  - name: "Porfolio"
+    label: "Portfolio"
+    folder: "content/portfolio"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{fields.slug}}"
+    fields:
+      - {
+          label: "Template Key",
+          name: "templateKey",
+          widget: "hidden",
+          default: "portfolios",
+        }
+      - { label: "Slug", name: "slug", widget: "string" }
+      - { label: "Excerpt", name: "excerpt", widget: "text" }
+      - {
+          label: "Featured on Homepage?",
+          name: "isFeatured",
+          widget: "boolean",
+          default: false,
+        }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Project Link", name: "projectLink", widget: "string" }
+      - { label: "Subtitle", name: "subtitle", widget: "string" }
+      - { label: "Date Published", name: "date", widget: "datetime" }
+      - {
+          label: "Project Type (for grid)",
+          name: "projectType",
+          widget: "string",
+        }
+      - {
+          label: "Project Thumbnail (for grid)",
+          name: "thumbnailImage",
+          widget: image,
+        }
+      - { label: "Project Description", name: "projectDesc", widget: "text" }
+      - { label: "Featured Image", name: "featuredImage", widget: image }
+      - { label: "About Heading", name: "aboutHeading", widget: "string" }
+      - { label: "About Description", name: "aboutDesc", widget: "markdown" }
+      - { label: "Project Image", name: "projectImage", widget: image }
+      - { label: "Result Heading", name: "resultHeading", widget: "string" }
+      - { label: "Result Description", name: "resultDesc", widget: "markdown" }
+
+local_backend: true
