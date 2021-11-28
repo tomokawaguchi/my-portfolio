@@ -4,7 +4,7 @@ slug: flexi-tennis-leagues
 excerpt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
   eiusmod tempor incididunt ut labore et dolore magna aliqua. "
 isFeatured: true
-title: Flexi Tennis Leagues website
+title: Flexi Tennis Leagues Website
 projectLink: https://flexitennisleagues.com.au/
 subtitle: Flexi Tennis Leagues
 date: 2020-07-01T11:24:55.141Z

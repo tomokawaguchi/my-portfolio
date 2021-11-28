@@ -19,23 +19,19 @@ const AboutPage = () => {
         <div className="inner-wrapper standard-padding">
           <h2>Experience as Engineer</h2>
           <p>
-            I have started my career as a website project manager at a marketing agency in Perth WA. During the period, I have established basic skills and
-            knowledge of website development especially in WordPress.
+          I have started my career as a website project manager at a marketing agency in Perth WA. During the period, I have established basic skills and knowledge of website development especially in WordPress.
           </p>
           <p>
-            This initial experience and curiousity lead me to develop a few brochure sites and eventually upskilling and building web apps in React.js and
-            GatsbyJS. I have worked for a start-up company that provides tennis enthusiats an outlet where they can play with locals at a time and place
-            convenient to them. As a junior front-end engineer, I have conceptualised the design and built the front-facing website with GatsbyJS and was
-            involved in some of the front-end web application development.
+          This initial experience and curiosity lead me to develop a few brochure sites and eventually upskilling and building web apps in GatsbyJS. I have worked for a start-up company that provides tennis enthusiasts an outlet where they can play with locals at a time and place convenient to them. As a junior front-end engineer, I have conceptualised the design and built the front-facing website with GatsbyJS.
           </p>
           <p>
-            Currently I am working as a freelance frontend developer mainly building custom WordPress themes. Recent project I worked on is a portfolio website for photography service. This includes 4 alternative designs for a portfolio custom post type, which provide a client a flexibility to select the suitable design depending on the portfolio type/category. 
+          Currently I am working as a freelance frontend developer mainly building custom WordPress themes. Recent project I worked on is a portfolio website for a photography service. This includes 4 alternative designs for the portfolio category page, which provides the client the flexibility to select a suitable design depending on the portfolio type/category.
           </p>
           <p>
-              As a self-taught developer, I am constantly growing my knowledge and skill sets in development. One example is my certificate of completing Android development course at Udacity, which provide me an opportunity to learn Java and have a better understanding of OOP.  I have also constantly been on Codewar and solve challenges to maintain and grow my skills in JavaScript, Java and Kotlin. 
+          As a self-taught developer, I am constantly growing my knowledge and skill sets in development. One example is my certificate of completing Android development course at Udacity, which provided me the opportunity to learn Java and have a better understanding of OOP. I have also constantly been on Codewar and solve challenges to maintain and grow my skills in JavaScript, Java and Kotlin.
           </p>
           <p>
-            <span id="bold-text">Skills:</span> Java, JavaScript, React.js, GatsbyJS, GraphQL, CSS, Sass, HTML{" "}
+            <span id="bold-text">Skills:</span> Java, JavaScript, React.js, GatsbyJS, GraphQL, PHP, CSS, SASS, HTML{" "}
           </p>
         </div>
       </Panel1Wrapper>

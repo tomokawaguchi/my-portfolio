@@ -27,9 +27,9 @@ export const resources = {
   bannerTexts: {
     home: {
       title: "Hi, I'm Tomoko",
-      subtitle: "Junior Android Engineer",
+      subtitle: "Freelance Web Developer",
       summaryText:
-        "Self-motivated professional with 3+ years of experience in the tech industry. Passionate about building educational apps. Recently completed the Android Basics Nanodegree by Google primarily focusing on the Java programming. Currently broadening my knowledge in Kotlin.",
+        "Self-motivated professional with 3+ years of experience in the tech industry. Passionate about building digital products that help people. Currently working as a freelance developer on custom WordPress theme projects.",
       bannerType: "profile",
       type: "home",
     },
@@ -37,14 +37,14 @@ export const resources = {
       title: "About",
       subtitle: "Junior Android Engineer based in Japan",
       summaryText:
-        "Former website project manager turned Android developer. Passionate about building educational/learning apps with a focus on enhancing the learning process.",
+        "Former website project manager turned frontend web developer. Passionate about building digital products that help people.",
       bannerType: "profile",
       type: "about",
     },
     portfolio: {
       title: "Portfolio",
       subtitle: "Check out some of my latest projects!",
-      summaryText: "Showcasing personal and commercial projects for start-ups that are mainly focused on community, educational and learning apps.",
+      summaryText: "Showcasing personal and commercial projects that I have worked on.",
       bannerType: "mobile",
       type: "portfolio",
     },
