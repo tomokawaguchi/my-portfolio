@@ -9,7 +9,7 @@ projectLink: https://audiophile.tomok.dev/
 subtitle: Personal Project
 date: 2021-08-01T11:24:55.141Z
 projectType: Website Development
-thumbnailImage: /images/audiophile/logo.png
+thumbnailImage: /images/audiophile-logo.png
 projectDesc: A personal static HTML, SCSS and JS site.
 featuredImage: /images/audiophile-featured.png
 aboutHeading: About The Project
