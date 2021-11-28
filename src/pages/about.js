@@ -29,8 +29,10 @@ const AboutPage = () => {
             involved in some of the front-end web application development.
           </p>
           <p>
-            Ultimately, my interest has expanded to mobile development and I have taken Android Basics Nanodegree by Google at Udacity to learn the Java basics.
-            Since then I am in love with Android development and have been working on multiple personal projects relating to education.
+            Currently I am working as a freelance frontend developer mainly building custom WordPress themes. Recent project I worked on is a portfolio website for photography service. This includes 4 alternative designs for a portfolio custom post type, which provide a client a flexibility to select the suitable design depending on the portfolio type/category. 
+          </p>
+          <p>
+              As a self-taught developer, I am constantly growing my knowledge and skill sets in development. One example is my certificate of completing Android development course at Udacity, which provide me an opportunity to learn Java and have a better understanding of OOP.  I have also constantly been on Codewar and solve challenges to maintain and grow my skills in JavaScript, Java and Kotlin. 
           </p>
           <p>
             <span id="bold-text">Skills:</span> Java, JavaScript, React.js, GatsbyJS, GraphQL, CSS, Sass, HTML{" "}
